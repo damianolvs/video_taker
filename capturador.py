@@ -30,15 +30,29 @@ def configurar_directorios(directorio):
         os.makedirs(directorio)
         logger.info(f"Directorio creado: {directorio}")
 
-def generar_nombre_archivo(formato, id_camara, directorio):
-    """Genera un nombre de archivo con timestamp."""
+def generar_nombre_archivo(formato, id_camara, directorio, extension=None):
+    """
+    Genera un nombre de archivo con timestamp.
+    
+    Args:
+        formato (str): Formato para el nombre del archivo
+        id_camara (str): ID de la cámara
+        directorio (str): Directorio donde se guardará el archivo
+        extension (str, optional): Extensión para el archivo. Si es None, se usa el valor configurado
+        
+    Returns:
+        str: Ruta completa al archivo generado
+    """
+    from config import obtener_extension
+    
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    nombre_archivo = formato.format(id=id_camara, timestamp=timestamp)
+    ext = extension if extension else obtener_extension()
+    nombre_archivo = formato.format(id=id_camara, timestamp=timestamp, ext=ext)
     return os.path.join(directorio, nombre_archivo)
 
 def capturar_video(camara, directorio, formato_nombre):
     """
-    Captura video desde una URL y lo guarda en formato MP4.
+    Captura video desde una URL y lo guarda en el formato configurado.
     
     Args:
         camara (dict): Diccionario con la configuración de la cámara
@@ -48,6 +62,9 @@ def capturar_video(camara, directorio, formato_nombre):
     Returns:
         tuple: (éxito, nombre_archivo, mensaje)
     """
+    # Importar funciones de configuración
+    from config import obtener_extension, obtener_codec
+    
     # Extraer información de la cámara
     id_camara = camara["id"]
     nombre_camara = camara["nombre"]
@@ -55,12 +72,17 @@ def capturar_video(camara, directorio, formato_nombre):
     duracion = camara.get("duracion", 30)  # Valor predeterminado: 30 segundos
     fps = camara.get("fps", 20)  # Valor predeterminado: 20 FPS
     
+    # Obtener el formato y codec configurados
+    extension = obtener_extension()
+    codec = obtener_codec()
+    
     # Generar nombre de archivo
-    output_filename = generar_nombre_archivo(formato_nombre, id_camara, directorio)
+    output_filename = generar_nombre_archivo(formato_nombre, id_camara, directorio, extension)
     
     logger.info(f"Iniciando captura desde {nombre_camara} (ID: {id_camara})")
     logger.info(f"URL: {url}")
     logger.info(f"Archivo de salida: {output_filename}")
+    logger.info(f"Formato: {extension.upper()}, Codec: {codec}")
     logger.info(f"Duración: {duracion} segundos, FPS: {fps}")
     
     try:
@@ -73,8 +95,8 @@ def capturar_video(camara, directorio, formato_nombre):
             logger.error(mensaje)
             return False, output_filename, mensaje
         
-        # Configurar el codificador para MP4
-        fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+        # Configurar el codec según el formato seleccionado
+        fourcc = cv2.VideoWriter_fourcc(*codec)
         
         # Variables para controlar el tamaño y la escritura
         frame_size = None
@@ -111,6 +133,8 @@ def capturar_video(camara, directorio, formato_nombre):
                         frame_size = (frame.shape[1], frame.shape[0])
                         out = cv2.VideoWriter(output_filename, fourcc, fps, frame_size)
                         logger.info(f"Tamaño de frame detectado para {nombre_camara}: {frame_size}")
+                        is_compressed = 'mp4' in output_filename.lower()
+                        logger.info(f"Formato de video: {extension.upper()} {'(comprimido)' if is_compressed else '(sin compresión)'}")
                     
                     # Escribir el frame al archivo de video
                     out.write(frame)

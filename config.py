@@ -1,4 +1,4 @@
-# configuracion.py
+# config.py
 """
 Archivo de configuración para las cámaras de vigilancia.
 Cada cámara debe tener un identificador único y una URL de stream.
@@ -29,8 +29,19 @@ def crear_directorio_videos():
 # Crear el directorio al importar este módulo
 crear_directorio_videos()
 
+# Configuración de formato de video
+# Formatos disponibles: 'mp4' (comprimido) o 'avi' (sin compresión)
+FORMATO_VIDEO = "avi"  # Valor por defecto: 'avi' sin compresión
+
+# Codecs disponibles por formato
+CODECS = {
+    "mp4": "mp4v",  # Codec para MP4 (comprimido)
+    "avi": "I420"   # Codec para AVI (sin compresión)
+}
+
 # Formato de nombres de archivos (se agregará fecha/hora automáticamente)
-FORMATO_NOMBRE = "camara_{id}_{timestamp}.mp4"
+# La extensión se ajustará automáticamente según FORMATO_VIDEO
+FORMATO_NOMBRE = "camara_{id}_{timestamp}.{ext}"
 
 # Lista de cámaras configuradas
 # Cada cámara es un diccionario con:
@@ -91,3 +102,36 @@ def actualizar_url_camara(id_camara, nueva_url):
             CAMARAS[i]["url"] = nueva_url
             return True
     return False
+
+# Función para cambiar el formato de video
+def cambiar_formato_video(formato):
+    """
+    Cambia el formato de video para todas las capturas.
+    
+    Args:
+        formato (str): Formato de video ('mp4' o 'avi')
+        
+    Returns:
+        bool: True si el formato es válido, False en caso contrario
+    """
+    formatos_validos = list(CODECS.keys())
+    
+    if formato.lower() not in formatos_validos:
+        print(f"Error: Formato no válido. Formatos disponibles: {', '.join(formatos_validos)}")
+        return False
+    
+    global FORMATO_VIDEO
+    FORMATO_VIDEO = formato.lower()
+    print(f"Formato de video cambiado a: {FORMATO_VIDEO}")
+    print(f"Codec utilizado: {CODECS[FORMATO_VIDEO]}")
+    return True
+
+# Función para obtener la extensión de archivo según el formato de video actual
+def obtener_extension():
+    """Retorna la extensión de archivo según el formato de video configurado."""
+    return FORMATO_VIDEO
+
+# Función para obtener el codec según el formato de video actual
+def obtener_codec():
+    """Retorna el código de codec según el formato de video configurado."""
+    return CODECS[FORMATO_VIDEO]

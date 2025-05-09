@@ -69,3 +69,238 @@
 2025-05-09 10:48:46,841 - CapturadorVideo - INFO - Cámara Principal: Capturado 540 frames (28.89 segundos)
 2025-05-09 10:48:47,969 - CapturadorVideo - INFO - Video de Cámara Principal guardado como videos_capturados\camara_cam1_20250509_104817.mp4
 2025-05-09 10:48:47,969 - CapturadorVideo - INFO - Total de frames capturados: 550
+2025-05-09 11:28:23,613 - CapturadorVideo - INFO - Iniciando captura con 1 hilos paralelos
+2025-05-09 11:28:23,614 - CapturadorVideo - INFO - Iniciando captura desde Cámara Principal (ID: cam1)
+2025-05-09 11:28:23,614 - CapturadorVideo - INFO - URL: http://10.137.140.97:8000/video_feed
+2025-05-09 11:28:23,614 - CapturadorVideo - INFO - Archivo de salida: videos_capturados\camara_cam1_20250509_112823.avi
+2025-05-09 11:28:23,614 - CapturadorVideo - INFO - Duración: 30 segundos, FPS: 20
+2025-05-09 11:28:24,043 - CapturadorVideo - INFO - Tamaño de frame detectado para Cámara Principal: (640, 480)
+2025-05-09 11:28:24,043 - CapturadorVideo - INFO - Formato de video: AVI sin compresión
+2025-05-09 11:28:24,941 - CapturadorVideo - INFO - Cámara Principal: Capturado 20 frames (1.13 segundos)
+2025-05-09 11:28:25,725 - CapturadorVideo - INFO - Cámara Principal: Capturado 40 frames (1.91 segundos)
+2025-05-09 11:28:26,612 - CapturadorVideo - INFO - Cámara Principal: Capturado 60 frames (2.80 segundos)
+2025-05-09 11:28:27,499 - CapturadorVideo - INFO - Cámara Principal: Capturado 80 frames (3.68 segundos)
+2025-05-09 11:28:28,388 - CapturadorVideo - INFO - Cámara Principal: Capturado 100 frames (4.57 segundos)
+2025-05-09 11:28:29,273 - CapturadorVideo - INFO - Cámara Principal: Capturado 120 frames (5.46 segundos)
+2025-05-09 11:28:30,162 - CapturadorVideo - INFO - Cámara Principal: Capturado 140 frames (6.35 segundos)
+2025-05-09 11:28:31,048 - CapturadorVideo - INFO - Cámara Principal: Capturado 160 frames (7.23 segundos)
+2025-05-09 11:28:31,939 - CapturadorVideo - INFO - Cámara Principal: Capturado 180 frames (8.12 segundos)
+2025-05-09 11:28:32,819 - CapturadorVideo - INFO - Cámara Principal: Capturado 200 frames (9.00 segundos)
+2025-05-09 11:28:33,702 - CapturadorVideo - INFO - Cámara Principal: Capturado 220 frames (9.89 segundos)
+2025-05-09 11:28:34,591 - CapturadorVideo - INFO - Cámara Principal: Capturado 240 frames (10.78 segundos)
+2025-05-09 11:28:35,486 - CapturadorVideo - INFO - Cámara Principal: Capturado 260 frames (11.67 segundos)
+2025-05-09 11:28:36,370 - CapturadorVideo - INFO - Cámara Principal: Capturado 280 frames (12.55 segundos)
+2025-05-09 11:28:37,256 - CapturadorVideo - INFO - Cámara Principal: Capturado 300 frames (13.44 segundos)
+2025-05-09 11:28:38,155 - CapturadorVideo - INFO - Cámara Principal: Capturado 320 frames (14.34 segundos)
+2025-05-09 11:28:39,018 - CapturadorVideo - INFO - Cámara Principal: Capturado 340 frames (15.20 segundos)
+2025-05-09 11:28:39,899 - CapturadorVideo - INFO - Cámara Principal: Capturado 360 frames (16.08 segundos)
+2025-05-09 11:28:41,081 - CapturadorVideo - INFO - Cámara Principal: Capturado 380 frames (17.27 segundos)
+2025-05-09 11:28:42,685 - CapturadorVideo - INFO - Cámara Principal: Capturado 400 frames (18.87 segundos)
+2025-05-09 11:28:44,291 - CapturadorVideo - INFO - Cámara Principal: Capturado 420 frames (20.48 segundos)
+2025-05-09 11:28:45,744 - CapturadorVideo - INFO - Cámara Principal: Capturado 440 frames (21.93 segundos)
+2025-05-09 11:28:47,391 - CapturadorVideo - INFO - Cámara Principal: Capturado 460 frames (23.58 segundos)
+2025-05-09 11:28:48,921 - CapturadorVideo - INFO - Cámara Principal: Capturado 480 frames (25.11 segundos)
+2025-05-09 11:28:50,691 - CapturadorVideo - INFO - Cámara Principal: Capturado 500 frames (26.88 segundos)
+2025-05-09 11:28:52,606 - CapturadorVideo - INFO - Cámara Principal: Capturado 520 frames (28.79 segundos)
+2025-05-09 11:28:53,820 - CapturadorVideo - INFO - Video de Cámara Principal guardado como videos_capturados\camara_cam1_20250509_112823.avi
+2025-05-09 11:28:53,820 - CapturadorVideo - INFO - Total de frames capturados: 534
+2025-05-09 11:30:16,212 - CapturadorVideo - INFO - Iniciando captura con 1 hilos paralelos
+2025-05-09 11:30:16,212 - CapturadorVideo - INFO - Iniciando captura desde Cámara Principal (ID: cam1)
+2025-05-09 11:30:16,212 - CapturadorVideo - INFO - URL: http://10.137.140.97:8000/video_feed
+2025-05-09 11:30:16,212 - CapturadorVideo - INFO - Archivo de salida: videos_capturados\camara_cam1_20250509_113016.avi
+2025-05-09 11:30:16,212 - CapturadorVideo - INFO - Duración: 30 segundos, FPS: 20
+2025-05-09 11:30:16,632 - CapturadorVideo - INFO - Tamaño de frame detectado para Cámara Principal: (640, 480)
+2025-05-09 11:30:16,632 - CapturadorVideo - INFO - Formato de video: AVI sin compresión
+2025-05-09 11:30:18,221 - CapturadorVideo - INFO - Cámara Principal: Capturado 20 frames (1.81 segundos)
+2025-05-09 11:30:20,143 - CapturadorVideo - INFO - Cámara Principal: Capturado 40 frames (3.73 segundos)
+2025-05-09 11:30:22,040 - CapturadorVideo - INFO - Cámara Principal: Capturado 60 frames (5.63 segundos)
+2025-05-09 11:30:24,345 - CapturadorVideo - INFO - Cámara Principal: Capturado 80 frames (7.93 segundos)
+2025-05-09 11:30:26,947 - CapturadorVideo - INFO - Cámara Principal: Capturado 100 frames (10.53 segundos)
+2025-05-09 11:30:30,094 - CapturadorVideo - INFO - Cámara Principal: Capturado 120 frames (13.68 segundos)
+2025-05-09 11:30:33,139 - CapturadorVideo - INFO - Cámara Principal: Capturado 140 frames (16.73 segundos)
+2025-05-09 11:30:36,219 - CapturadorVideo - INFO - Cámara Principal: Capturado 160 frames (19.81 segundos)
+2025-05-09 11:30:38,774 - CapturadorVideo - INFO - Cámara Principal: Capturado 180 frames (22.36 segundos)
+2025-05-09 11:30:41,311 - CapturadorVideo - INFO - Cámara Principal: Capturado 200 frames (24.90 segundos)
+2025-05-09 11:30:43,790 - CapturadorVideo - INFO - Cámara Principal: Capturado 220 frames (27.38 segundos)
+2025-05-09 11:30:46,119 - CapturadorVideo - INFO - Cámara Principal: Capturado 240 frames (29.71 segundos)
+2025-05-09 11:30:46,426 - CapturadorVideo - INFO - Video de Cámara Principal guardado como videos_capturados\camara_cam1_20250509_113016.avi
+2025-05-09 11:30:46,426 - CapturadorVideo - INFO - Total de frames capturados: 242
+2025-05-09 11:31:56,748 - CapturadorVideo - INFO - Iniciando captura con 1 hilos paralelos
+2025-05-09 11:31:56,748 - CapturadorVideo - INFO - Iniciando captura desde Cámara Principal (ID: cam1)
+2025-05-09 11:31:56,756 - CapturadorVideo - INFO - URL: http://10.137.140.97:8000/video_feed
+2025-05-09 11:31:56,756 - CapturadorVideo - INFO - Archivo de salida: videos_capturados\camara_cam1_20250509_113156.avi
+2025-05-09 11:31:56,757 - CapturadorVideo - INFO - Duración: 30 segundos, FPS: 20
+2025-05-09 11:31:57,164 - CapturadorVideo - INFO - Tamaño de frame detectado para Cámara Principal: (640, 480)
+2025-05-09 11:31:57,164 - CapturadorVideo - INFO - Formato de video: AVI sin compresión
+2025-05-09 11:31:57,974 - CapturadorVideo - INFO - Cámara Principal: Capturado 20 frames (1.02 segundos)
+2025-05-09 11:31:58,878 - CapturadorVideo - INFO - Cámara Principal: Capturado 40 frames (1.92 segundos)
+2025-05-09 11:31:59,762 - CapturadorVideo - INFO - Cámara Principal: Capturado 60 frames (2.81 segundos)
+2025-05-09 11:32:00,656 - CapturadorVideo - INFO - Cámara Principal: Capturado 80 frames (3.70 segundos)
+2025-05-09 11:32:01,544 - CapturadorVideo - INFO - Cámara Principal: Capturado 100 frames (4.59 segundos)
+2025-05-09 11:32:02,444 - CapturadorVideo - INFO - Cámara Principal: Capturado 120 frames (5.49 segundos)
+2025-05-09 11:32:03,327 - CapturadorVideo - INFO - Cámara Principal: Capturado 140 frames (6.38 segundos)
+2025-05-09 11:32:04,230 - CapturadorVideo - INFO - Cámara Principal: Capturado 160 frames (7.28 segundos)
+2025-05-09 11:32:05,124 - CapturadorVideo - INFO - Cámara Principal: Capturado 180 frames (8.17 segundos)
+2025-05-09 11:32:06,037 - CapturadorVideo - INFO - Cámara Principal: Capturado 200 frames (9.09 segundos)
+2025-05-09 11:32:06,897 - CapturadorVideo - INFO - Cámara Principal: Capturado 220 frames (9.95 segundos)
+2025-05-09 11:32:07,774 - CapturadorVideo - INFO - Cámara Principal: Capturado 240 frames (10.82 segundos)
+2025-05-09 11:32:08,671 - CapturadorVideo - INFO - Cámara Principal: Capturado 260 frames (11.72 segundos)
+2025-05-09 11:32:09,571 - CapturadorVideo - INFO - Cámara Principal: Capturado 280 frames (12.62 segundos)
+2025-05-09 11:32:10,451 - CapturadorVideo - INFO - Cámara Principal: Capturado 300 frames (13.50 segundos)
+2025-05-09 11:32:11,343 - CapturadorVideo - INFO - Cámara Principal: Capturado 320 frames (14.39 segundos)
+2025-05-09 11:32:12,230 - CapturadorVideo - INFO - Cámara Principal: Capturado 340 frames (15.28 segundos)
+2025-05-09 11:32:13,111 - CapturadorVideo - INFO - Cámara Principal: Capturado 360 frames (16.16 segundos)
+2025-05-09 11:32:13,994 - CapturadorVideo - INFO - Cámara Principal: Capturado 380 frames (17.04 segundos)
+2025-05-09 11:32:14,981 - CapturadorVideo - INFO - Cámara Principal: Capturado 400 frames (18.03 segundos)
+2025-05-09 11:32:15,755 - CapturadorVideo - INFO - Cámara Principal: Capturado 420 frames (18.80 segundos)
+2025-05-09 11:32:16,654 - CapturadorVideo - INFO - Cámara Principal: Capturado 440 frames (19.70 segundos)
+2025-05-09 11:32:17,535 - CapturadorVideo - INFO - Cámara Principal: Capturado 460 frames (20.58 segundos)
+2025-05-09 11:32:18,422 - CapturadorVideo - INFO - Cámara Principal: Capturado 480 frames (21.47 segundos)
+2025-05-09 11:32:19,314 - CapturadorVideo - INFO - Cámara Principal: Capturado 500 frames (22.36 segundos)
+2025-05-09 11:32:20,258 - CapturadorVideo - INFO - Cámara Principal: Capturado 520 frames (23.31 segundos)
+2025-05-09 11:32:21,472 - CapturadorVideo - INFO - Cámara Principal: Capturado 540 frames (24.52 segundos)
+2025-05-09 11:32:22,763 - CapturadorVideo - INFO - Cámara Principal: Capturado 560 frames (25.81 segundos)
+2025-05-09 11:32:24,400 - CapturadorVideo - INFO - Cámara Principal: Capturado 580 frames (27.45 segundos)
+2025-05-09 11:32:26,153 - CapturadorVideo - INFO - Cámara Principal: Capturado 600 frames (29.20 segundos)
+2025-05-09 11:32:26,986 - CapturadorVideo - INFO - Video de Cámara Principal guardado como videos_capturados\camara_cam1_20250509_113156.avi
+2025-05-09 11:32:26,986 - CapturadorVideo - INFO - Total de frames capturados: 609
+2025-05-09 11:33:18,713 - CapturadorVideo - INFO - Iniciando captura con 1 hilos paralelos
+2025-05-09 11:33:18,713 - CapturadorVideo - INFO - Iniciando captura desde Cámara Principal (ID: cam1)
+2025-05-09 11:33:18,713 - CapturadorVideo - INFO - URL: http://10.137.140.97:8000/video_feed
+2025-05-09 11:33:18,713 - CapturadorVideo - INFO - Archivo de salida: videos_capturados\camara_cam1_20250509_113318.avi
+2025-05-09 11:33:18,713 - CapturadorVideo - INFO - Duración: 30 segundos, FPS: 20
+2025-05-09 11:33:19,136 - CapturadorVideo - INFO - Tamaño de frame detectado para Cámara Principal: (640, 480)
+2025-05-09 11:33:19,136 - CapturadorVideo - INFO - Formato de video: AVI sin compresión
+2025-05-09 11:33:19,939 - CapturadorVideo - INFO - Cámara Principal: Capturado 20 frames (1.02 segundos)
+2025-05-09 11:33:20,831 - CapturadorVideo - INFO - Cámara Principal: Capturado 40 frames (1.90 segundos)
+2025-05-09 11:33:21,716 - CapturadorVideo - INFO - Cámara Principal: Capturado 60 frames (2.80 segundos)
+2025-05-09 11:33:22,602 - CapturadorVideo - INFO - Cámara Principal: Capturado 80 frames (3.69 segundos)
+2025-05-09 11:33:23,478 - CapturadorVideo - INFO - Cámara Principal: Capturado 100 frames (4.56 segundos)
+2025-05-09 11:33:24,377 - CapturadorVideo - INFO - Cámara Principal: Capturado 120 frames (5.46 segundos)
+2025-05-09 11:33:25,258 - CapturadorVideo - INFO - Cámara Principal: Capturado 140 frames (6.34 segundos)
+2025-05-09 11:33:26,146 - CapturadorVideo - INFO - Cámara Principal: Capturado 160 frames (7.23 segundos)
+2025-05-09 11:33:27,049 - CapturadorVideo - INFO - Cámara Principal: Capturado 180 frames (8.13 segundos)
+2025-05-09 11:33:27,950 - CapturadorVideo - INFO - Cámara Principal: Capturado 200 frames (9.04 segundos)
+2025-05-09 11:33:28,832 - CapturadorVideo - INFO - Cámara Principal: Capturado 220 frames (9.92 segundos)
+2025-05-09 11:33:29,726 - CapturadorVideo - INFO - Cámara Principal: Capturado 240 frames (10.81 segundos)
+2025-05-09 11:33:30,614 - CapturadorVideo - INFO - Cámara Principal: Capturado 260 frames (11.70 segundos)
+2025-05-09 11:33:31,734 - CapturadorVideo - INFO - Cámara Principal: Capturado 280 frames (12.82 segundos)
+2025-05-09 11:33:32,879 - CapturadorVideo - INFO - Cámara Principal: Capturado 300 frames (13.96 segundos)
+2025-05-09 11:33:33,958 - CapturadorVideo - INFO - Cámara Principal: Capturado 320 frames (15.04 segundos)
+2025-05-09 11:33:35,031 - CapturadorVideo - INFO - Cámara Principal: Capturado 340 frames (16.12 segundos)
+2025-05-09 11:33:36,093 - CapturadorVideo - INFO - Cámara Principal: Capturado 360 frames (17.18 segundos)
+2025-05-09 11:33:37,072 - CapturadorVideo - INFO - Cámara Principal: Capturado 380 frames (18.16 segundos)
+2025-05-09 11:33:38,392 - CapturadorVideo - INFO - Cámara Principal: Capturado 400 frames (19.48 segundos)
+2025-05-09 11:33:39,785 - CapturadorVideo - INFO - Cámara Principal: Capturado 420 frames (20.87 segundos)
+2025-05-09 11:33:41,117 - CapturadorVideo - INFO - Cámara Principal: Capturado 440 frames (22.20 segundos)
+2025-05-09 11:33:42,950 - CapturadorVideo - INFO - Cámara Principal: Capturado 460 frames (24.04 segundos)
+2025-05-09 11:33:44,743 - CapturadorVideo - INFO - Cámara Principal: Capturado 480 frames (25.83 segundos)
+2025-05-09 11:33:46,359 - CapturadorVideo - INFO - Cámara Principal: Capturado 500 frames (27.44 segundos)
+2025-05-09 11:33:47,753 - CapturadorVideo - INFO - Cámara Principal: Capturado 520 frames (28.84 segundos)
+2025-05-09 11:33:49,021 - CapturadorVideo - INFO - Video de Cámara Principal guardado como videos_capturados\camara_cam1_20250509_113318.avi
+2025-05-09 11:33:49,021 - CapturadorVideo - INFO - Total de frames capturados: 534
+2025-05-09 11:55:17,491 - CapturadorVideo - INFO - Iniciando captura con 1 hilos paralelos
+2025-05-09 11:55:17,491 - CapturadorVideo - INFO - Iniciando captura desde Cámara Principal (ID: cam1)
+2025-05-09 11:55:17,491 - CapturadorVideo - INFO - URL: http://10.137.140.97:8000/video_feed
+2025-05-09 11:55:17,491 - CapturadorVideo - INFO - Archivo de salida: videos_capturados\camara_cam1_20250509_115517.avi
+2025-05-09 11:55:17,491 - CapturadorVideo - INFO - Formato: AVI, Codec: I420
+2025-05-09 11:55:17,491 - CapturadorVideo - INFO - Duración: 30 segundos, FPS: 20
+2025-05-09 11:55:17,913 - CapturadorVideo - INFO - Tamaño de frame detectado para Cámara Principal: (640, 480)
+2025-05-09 11:55:17,913 - CapturadorVideo - INFO - Formato de video: AVI (sin compresión)
+2025-05-09 11:55:18,676 - CapturadorVideo - INFO - Cámara Principal: Capturado 20 frames (0.98 segundos)
+2025-05-09 11:55:19,548 - CapturadorVideo - INFO - Cámara Principal: Capturado 40 frames (1.85 segundos)
+2025-05-09 11:55:20,337 - CapturadorVideo - INFO - Cámara Principal: Capturado 60 frames (2.64 segundos)
+2025-05-09 11:55:21,146 - CapturadorVideo - INFO - Cámara Principal: Capturado 80 frames (3.45 segundos)
+2025-05-09 11:55:21,950 - CapturadorVideo - INFO - Cámara Principal: Capturado 100 frames (4.25 segundos)
+2025-05-09 11:55:22,749 - CapturadorVideo - INFO - Cámara Principal: Capturado 120 frames (5.05 segundos)
+2025-05-09 11:55:23,581 - CapturadorVideo - INFO - Cámara Principal: Capturado 140 frames (5.88 segundos)
+2025-05-09 11:55:24,482 - CapturadorVideo - INFO - Cámara Principal: Capturado 160 frames (6.78 segundos)
+2025-05-09 11:55:25,382 - CapturadorVideo - INFO - Cámara Principal: Capturado 180 frames (7.68 segundos)
+2025-05-09 11:55:26,266 - CapturadorVideo - INFO - Cámara Principal: Capturado 200 frames (8.57 segundos)
+2025-05-09 11:55:27,187 - CapturadorVideo - INFO - Cámara Principal: Capturado 220 frames (9.49 segundos)
+2025-05-09 11:55:28,079 - CapturadorVideo - INFO - Cámara Principal: Capturado 240 frames (10.38 segundos)
+2025-05-09 11:55:29,042 - CapturadorVideo - INFO - Cámara Principal: Capturado 260 frames (11.34 segundos)
+2025-05-09 11:55:29,891 - CapturadorVideo - INFO - Cámara Principal: Capturado 280 frames (12.19 segundos)
+2025-05-09 11:55:30,702 - CapturadorVideo - INFO - Cámara Principal: Capturado 300 frames (13.00 segundos)
+2025-05-09 11:55:31,501 - CapturadorVideo - INFO - Cámara Principal: Capturado 320 frames (13.80 segundos)
+2025-05-09 11:55:32,305 - CapturadorVideo - INFO - Cámara Principal: Capturado 340 frames (14.61 segundos)
+2025-05-09 11:55:33,105 - CapturadorVideo - INFO - Cámara Principal: Capturado 360 frames (15.41 segundos)
+2025-05-09 11:55:34,053 - CapturadorVideo - INFO - Cámara Principal: Capturado 380 frames (16.35 segundos)
+2025-05-09 11:55:35,176 - CapturadorVideo - INFO - Cámara Principal: Capturado 400 frames (17.47 segundos)
+2025-05-09 11:55:36,016 - CapturadorVideo - INFO - Cámara Principal: Capturado 420 frames (18.32 segundos)
+2025-05-09 11:55:37,268 - CapturadorVideo - INFO - Cámara Principal: Capturado 440 frames (19.57 segundos)
+2025-05-09 11:55:38,448 - CapturadorVideo - INFO - Cámara Principal: Capturado 460 frames (20.75 segundos)
+2025-05-09 11:55:39,622 - CapturadorVideo - INFO - Cámara Principal: Capturado 480 frames (21.92 segundos)
+2025-05-09 11:55:40,979 - CapturadorVideo - INFO - Cámara Principal: Capturado 500 frames (23.28 segundos)
+2025-05-09 11:55:42,298 - CapturadorVideo - INFO - Cámara Principal: Capturado 520 frames (24.60 segundos)
+2025-05-09 11:55:43,838 - CapturadorVideo - INFO - Cámara Principal: Capturado 540 frames (26.14 segundos)
+2025-05-09 11:55:45,354 - CapturadorVideo - INFO - Cámara Principal: Capturado 560 frames (27.65 segundos)
+2025-05-09 11:55:46,971 - CapturadorVideo - INFO - Cámara Principal: Capturado 580 frames (29.27 segundos)
+2025-05-09 11:55:47,726 - CapturadorVideo - INFO - Video de Cámara Principal guardado como videos_capturados\camara_cam1_20250509_115517.avi
+2025-05-09 11:55:47,726 - CapturadorVideo - INFO - Total de frames capturados: 588
+2025-05-09 11:56:04,353 - CapturadorVideo - INFO - Iniciando captura con 1 hilos paralelos
+2025-05-09 11:56:04,353 - CapturadorVideo - INFO - Iniciando captura desde Cámara Principal (ID: cam1)
+2025-05-09 11:56:04,353 - CapturadorVideo - INFO - URL: http://10.137.140.97:8000/video_feed
+2025-05-09 11:56:04,353 - CapturadorVideo - INFO - Archivo de salida: videos_capturados\camara_cam1_20250509_115604.mp4
+2025-05-09 11:56:04,353 - CapturadorVideo - INFO - Formato: MP4, Codec: mp4v
+2025-05-09 11:56:04,353 - CapturadorVideo - INFO - Duración: 30 segundos, FPS: 20
+2025-05-09 11:56:04,789 - CapturadorVideo - INFO - Tamaño de frame detectado para Cámara Principal: (640, 480)
+2025-05-09 11:56:04,789 - CapturadorVideo - INFO - Formato de video: MP4 (comprimido)
+2025-05-09 11:56:05,544 - CapturadorVideo - INFO - Cámara Principal: Capturado 20 frames (0.98 segundos)
+2025-05-09 11:56:06,411 - CapturadorVideo - INFO - Cámara Principal: Capturado 40 frames (1.85 segundos)
+2025-05-09 11:56:07,242 - CapturadorVideo - INFO - Cámara Principal: Capturado 60 frames (2.68 segundos)
+2025-05-09 11:56:08,049 - CapturadorVideo - INFO - Cámara Principal: Capturado 80 frames (3.49 segundos)
+2025-05-09 11:56:08,858 - CapturadorVideo - INFO - Cámara Principal: Capturado 100 frames (4.30 segundos)
+2025-05-09 11:56:09,673 - CapturadorVideo - INFO - Cámara Principal: Capturado 120 frames (5.11 segundos)
+2025-05-09 11:56:10,515 - CapturadorVideo - INFO - Cámara Principal: Capturado 140 frames (5.95 segundos)
+2025-05-09 11:56:11,396 - CapturadorVideo - INFO - Cámara Principal: Capturado 160 frames (6.83 segundos)
+2025-05-09 11:56:12,294 - CapturadorVideo - INFO - Cámara Principal: Capturado 180 frames (7.73 segundos)
+2025-05-09 11:56:13,179 - CapturadorVideo - INFO - Cámara Principal: Capturado 200 frames (8.62 segundos)
+2025-05-09 11:56:14,061 - CapturadorVideo - INFO - Cámara Principal: Capturado 220 frames (9.50 segundos)
+2025-05-09 11:56:14,955 - CapturadorVideo - INFO - Cámara Principal: Capturado 240 frames (10.39 segundos)
+2025-05-09 11:56:15,833 - CapturadorVideo - INFO - Cámara Principal: Capturado 260 frames (11.27 segundos)
+2025-05-09 11:56:16,757 - CapturadorVideo - INFO - Cámara Principal: Capturado 280 frames (12.20 segundos)
+2025-05-09 11:56:17,842 - CapturadorVideo - INFO - Cámara Principal: Capturado 300 frames (13.28 segundos)
+2025-05-09 11:56:19,095 - CapturadorVideo - INFO - Cámara Principal: Capturado 320 frames (14.53 segundos)
+2025-05-09 11:56:20,407 - CapturadorVideo - INFO - Cámara Principal: Capturado 340 frames (15.85 segundos)
+2025-05-09 11:56:21,609 - CapturadorVideo - INFO - Cámara Principal: Capturado 360 frames (17.05 segundos)
+2025-05-09 11:56:23,082 - CapturadorVideo - INFO - Cámara Principal: Capturado 380 frames (18.52 segundos)
+2025-05-09 11:56:24,893 - CapturadorVideo - INFO - Cámara Principal: Capturado 400 frames (20.33 segundos)
+2025-05-09 11:56:26,836 - CapturadorVideo - INFO - Cámara Principal: Capturado 420 frames (22.28 segundos)
+2025-05-09 11:56:28,501 - CapturadorVideo - INFO - Cámara Principal: Capturado 440 frames (23.94 segundos)
+2025-05-09 11:56:30,348 - CapturadorVideo - INFO - Cámara Principal: Capturado 460 frames (25.79 segundos)
+2025-05-09 11:56:32,054 - CapturadorVideo - INFO - Cámara Principal: Capturado 480 frames (27.49 segundos)
+2025-05-09 11:56:34,327 - CapturadorVideo - INFO - Cámara Principal: Capturado 500 frames (29.77 segundos)
+2025-05-09 11:56:34,581 - CapturadorVideo - INFO - Video de Cámara Principal guardado como videos_capturados\camara_cam1_20250509_115604.mp4
+2025-05-09 11:56:34,581 - CapturadorVideo - INFO - Total de frames capturados: 502
+2025-05-09 11:56:43,479 - CapturadorVideo - INFO - Iniciando captura con 1 hilos paralelos
+2025-05-09 11:56:43,479 - CapturadorVideo - INFO - Iniciando captura desde Cámara Principal (ID: cam1)
+2025-05-09 11:56:43,479 - CapturadorVideo - INFO - URL: http://10.137.140.97:8000/video_feed
+2025-05-09 11:56:43,479 - CapturadorVideo - INFO - Archivo de salida: videos_capturados\camara_cam1_20250509_115643.avi
+2025-05-09 11:56:43,479 - CapturadorVideo - INFO - Formato: AVI, Codec: I420
+2025-05-09 11:56:43,479 - CapturadorVideo - INFO - Duración: 30 segundos, FPS: 20
+2025-05-09 11:56:43,907 - CapturadorVideo - INFO - Tamaño de frame detectado para Cámara Principal: (640, 480)
+2025-05-09 11:56:43,908 - CapturadorVideo - INFO - Formato de video: AVI (sin compresión)
+2025-05-09 11:56:44,717 - CapturadorVideo - INFO - Cámara Principal: Capturado 20 frames (1.03 segundos)
+2025-05-09 11:56:45,513 - CapturadorVideo - INFO - Cámara Principal: Capturado 40 frames (1.82 segundos)
+2025-05-09 11:56:46,321 - CapturadorVideo - INFO - Cámara Principal: Capturado 60 frames (2.63 segundos)
+2025-05-09 11:56:47,127 - CapturadorVideo - INFO - Cámara Principal: Capturado 80 frames (3.44 segundos)
+2025-05-09 11:56:47,928 - CapturadorVideo - INFO - Cámara Principal: Capturado 100 frames (4.24 segundos)
+2025-05-09 11:56:48,737 - CapturadorVideo - INFO - Cámara Principal: Capturado 120 frames (5.05 segundos)
+2025-05-09 11:56:49,624 - CapturadorVideo - INFO - Cámara Principal: Capturado 140 frames (5.94 segundos)
+2025-05-09 11:56:50,510 - CapturadorVideo - INFO - Cámara Principal: Capturado 160 frames (6.82 segundos)
+2025-05-09 11:56:51,395 - CapturadorVideo - INFO - Cámara Principal: Capturado 180 frames (7.71 segundos)
+2025-05-09 11:56:52,287 - CapturadorVideo - INFO - Cámara Principal: Capturado 200 frames (8.60 segundos)
+2025-05-09 11:56:53,177 - CapturadorVideo - INFO - Cámara Principal: Capturado 220 frames (9.49 segundos)
+2025-05-09 11:56:54,399 - CapturadorVideo - INFO - Cámara Principal: Capturado 240 frames (10.71 segundos)
+2025-05-09 11:56:55,429 - CapturadorVideo - INFO - Cámara Principal: Capturado 260 frames (11.74 segundos)
+2025-05-09 11:56:56,390 - CapturadorVideo - INFO - Cámara Principal: Capturado 280 frames (12.70 segundos)
+2025-05-09 11:56:57,522 - CapturadorVideo - INFO - Cámara Principal: Capturado 300 frames (13.83 segundos)
+2025-05-09 11:56:58,706 - CapturadorVideo - INFO - Cámara Principal: Capturado 320 frames (15.02 segundos)
+2025-05-09 11:57:00,294 - CapturadorVideo - INFO - Cámara Principal: Capturado 340 frames (16.60 segundos)
+2025-05-09 11:57:02,817 - CapturadorVideo - INFO - Cámara Principal: Capturado 360 frames (19.13 segundos)
+2025-05-09 11:57:06,245 - CapturadorVideo - INFO - Cámara Principal: Capturado 380 frames (22.56 segundos)
+2025-05-09 11:57:09,224 - CapturadorVideo - INFO - Cámara Principal: Capturado 400 frames (25.54 segundos)
+2025-05-09 11:57:11,783 - CapturadorVideo - INFO - Cámara Principal: Capturado 420 frames (28.09 segundos)
+2025-05-09 11:57:13,697 - CapturadorVideo - INFO - Video de Cámara Principal guardado como videos_capturados\camara_cam1_20250509_115643.avi
+2025-05-09 11:57:13,697 - CapturadorVideo - INFO - Total de frames capturados: 434
