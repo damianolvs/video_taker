@@ -1,0 +1,15 @@
+{
+  "fecha": "2025-05-09T10:48:47.971383",
+  "total_camaras": 1,
+  "exitosas": 1,
+  "fallidas": 0,
+  "resultados": [
+    {
+      "id": "cam1",
+      "nombre": "Cámara Principal",
+      "exito": true,
+      "archivo": "videos_capturados\\camara_cam1_20250509_104817.mp4",
+      "mensaje": "Captura completada: 550 frames"
+    }
+  ]
+}
