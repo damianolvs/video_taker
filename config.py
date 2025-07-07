@@ -10,7 +10,7 @@ import os
 DURACION_PREDETERMINADA = 30
 
 # FPS predeterminados para la grabación
-FPS_PREDETERMINADOS = 20
+FPS_PREDETERMINADOS = 30
 
 # Directorio donde se guardarán los videos
 DIRECTORIO_VIDEOS = "videos_capturados"
@@ -58,18 +58,9 @@ CAMARAS = [
         "nombre": "Cámara Principal",
         "url": "http://10.137.140.97:8000/video_feed",
         "duracion": 30,
-        "fps": 20,
+        "fps": 30,
         "habilitada": True
-    },
-    # Agrega más cámaras según sea necesario, por ejemplo:
-    {
-        "id": "cam2",
-        "nombre": "Cámara Secundaria",
-        "url": "http://example.com/camera2/stream",
-        "duracion": 60,  # Esta cámara grabará por 60 segundos
-        "fps": 15,       # A 15 FPS
-        "habilitada": False  # Esta cámara está deshabilitada por defecto
-    },
+    }
 ]
 
 # Función para obtener solo las cámaras habilitadas
